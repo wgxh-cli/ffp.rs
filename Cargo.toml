@@ -1,0 +1,12 @@
+[workspace]
+members = [
+  "currying",
+]
+
+[package]
+name = "ffp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+currying = { path = "currying" }
